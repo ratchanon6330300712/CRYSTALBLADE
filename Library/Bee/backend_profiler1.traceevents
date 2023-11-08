@@ -1,0 +1,591 @@
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1699237529085563, "dur":1030, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1699237529086601, "dur":95, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1699237529086731, "dur":33, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1699237529086764, "dur":489, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1699237529087287, "dur":835, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1699237529088122, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1699237529183563, "dur":308, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1699237529183871, "dur":26, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1699237529183897, "dur":5, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1699237529183902, "dur":17, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1699237529183919, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1699237529183920, "dur":15, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1699237529183935, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1699237529183939, "dur":11, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1699237529183950, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1699237529183952, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1699237529183958, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1699237529183960, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1699237529183968, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1699237529183970, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1699237529183976, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1699237529183978, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1699237529183984, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1699237529183986, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1699237529183992, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1699237529183994, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1699237529184001, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1699237529184003, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1699237529184008, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1699237529184010, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1699237529184019, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1699237529184036, "dur":3, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1699237529184090, "dur":1954, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1699237529087668, "dur":483, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1699237529088151, "dur":3816, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1699237529091973, "dur":96, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/knigh/OneDrive//CystalBlade/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":1, "ts":1699237529092071, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1699237529093485, "dur":2868, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/knigh/OneDrive//CystalBlade/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":1, "ts":1699237529096402, "dur":84, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/knigh/OneDrive//CystalBlade/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1699237529096508, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1699237529097238, "dur":1148, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/knigh/OneDrive//CystalBlade/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1699237529098421, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/knigh/OneDrive//CystalBlade/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1699237529098464, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1699237529098471, "dur":1030, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/knigh/OneDrive//CystalBlade/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1699237529099531, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/knigh/OneDrive//CystalBlade/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":1, "ts":1699237529099597, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1699237529099602, "dur":1282, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/knigh/OneDrive//CystalBlade/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":1, "ts":1699237529100930, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/knigh/OneDrive//CystalBlade/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":1, "ts":1699237529100986, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1699237529100991, "dur":16235, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/knigh/OneDrive//CystalBlade/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":1, "ts":1699237529117270, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/knigh/OneDrive//CystalBlade/RPG - Udemy Course_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1699237529117288, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1699237529117294, "dur":6315, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/knigh/OneDrive//CystalBlade/RPG - Udemy Course_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1699237529123623, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/knigh/OneDrive//CystalBlade/RPG - Udemy Course_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1699237529123660, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1699237529123666, "dur":3605, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/knigh/OneDrive//CystalBlade/RPG - Udemy Course_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1699237529127286, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/knigh/OneDrive//CystalBlade/RPG - Udemy Course_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1699237529127305, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1699237529127311, "dur":3530, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/knigh/OneDrive//CystalBlade/RPG - Udemy Course_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1699237529130854, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/knigh/OneDrive//CystalBlade/RPG - Udemy Course_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1699237529130870, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1699237529130875, "dur":3118, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/knigh/OneDrive//CystalBlade/RPG - Udemy Course_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1699237529134010, "dur":149, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/knigh/OneDrive//CystalBlade/RPG - Udemy Course_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":1, "ts":1699237529134162, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1699237529134169, "dur":3367, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/knigh/OneDrive//CystalBlade/RPG - Udemy Course_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":1, "ts":1699237529137550, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/knigh/OneDrive//CystalBlade/RPG - Udemy Course_Data/Managed/Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":1, "ts":1699237529137565, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1699237529137572, "dur":3470, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/knigh/OneDrive//CystalBlade/RPG - Udemy Course_Data/Managed/Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":1, "ts":1699237529141057, "dur":172, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/knigh/OneDrive//CystalBlade/RPG - Udemy Course_Data/Managed/Unity.2D.Common.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1699237529141232, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1699237529141239, "dur":3295, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/knigh/OneDrive//CystalBlade/RPG - Udemy Course_Data/Managed/Unity.2D.Common.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1699237529144551, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/knigh/OneDrive//CystalBlade/RPG - Udemy Course_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":1, "ts":1699237529144589, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1699237529144601, "dur":3193, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/knigh/OneDrive//CystalBlade/RPG - Udemy Course_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":1, "ts":1699237529147810, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/knigh/OneDrive//CystalBlade/RPG - Udemy Course_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1699237529147824, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1699237529147830, "dur":4117, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/knigh/OneDrive//CystalBlade/RPG - Udemy Course_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1699237529151970, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/knigh/OneDrive//CystalBlade/RPG - Udemy Course_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1699237529151988, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1699237529151996, "dur":11668, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/knigh/OneDrive//CystalBlade/RPG - Udemy Course_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1699237529163686, "dur":19889, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1699237529087962, "dur":252, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1699237529088214, "dur":3784, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1699237529091999, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/knigh/OneDrive//CystalBlade/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1699237529092081, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1699237529100412, "dur":1409, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/knigh/OneDrive//CystalBlade/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1699237529101943, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/knigh/OneDrive//CystalBlade/RPG - Udemy Course_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":2, "ts":1699237529102001, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1699237529102300, "dur":4684, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/knigh/OneDrive//CystalBlade/RPG - Udemy Course_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":2, "ts":1699237529107034, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/knigh/OneDrive//CystalBlade/RPG - Udemy Course_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1699237529107075, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1699237529107081, "dur":3240, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/knigh/OneDrive//CystalBlade/RPG - Udemy Course_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1699237529110338, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/knigh/OneDrive//CystalBlade/RPG - Udemy Course_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1699237529110374, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1699237529110380, "dur":4047, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/knigh/OneDrive//CystalBlade/RPG - Udemy Course_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1699237529114442, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/knigh/OneDrive//CystalBlade/RPG - Udemy Course_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1699237529114465, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1699237529114472, "dur":2528, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/knigh/OneDrive//CystalBlade/RPG - Udemy Course_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1699237529117016, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/knigh/OneDrive//CystalBlade/RPG - Udemy Course_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1699237529117031, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1699237529117038, "dur":6384, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/knigh/OneDrive//CystalBlade/RPG - Udemy Course_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1699237529123437, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/knigh/OneDrive//CystalBlade/RPG - Udemy Course_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1699237529123453, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1699237529123458, "dur":3279, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/knigh/OneDrive//CystalBlade/RPG - Udemy Course_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1699237529126752, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/knigh/OneDrive//CystalBlade/RPG - Udemy Course_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1699237529126766, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1699237529126772, "dur":4143, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/knigh/OneDrive//CystalBlade/RPG - Udemy Course_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1699237529130931, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/knigh/OneDrive//CystalBlade/RPG - Udemy Course_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1699237529130948, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1699237529130953, "dur":3250, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/knigh/OneDrive//CystalBlade/RPG - Udemy Course_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1699237529134218, "dur":186, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/knigh/OneDrive//CystalBlade/RPG - Udemy Course_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":2, "ts":1699237529134407, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1699237529134414, "dur":3647, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/knigh/OneDrive//CystalBlade/RPG - Udemy Course_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":2, "ts":1699237529138077, "dur":376, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/knigh/OneDrive//CystalBlade/RPG - Udemy Course_Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":2, "ts":1699237529138456, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1699237529138463, "dur":3518, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/knigh/OneDrive//CystalBlade/RPG - Udemy Course_Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":2, "ts":1699237529142013, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/knigh/OneDrive//CystalBlade/RPG - Udemy Course_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":2, "ts":1699237529142034, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1699237529142041, "dur":4289, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/knigh/OneDrive//CystalBlade/RPG - Udemy Course_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":2, "ts":1699237529146345, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/knigh/OneDrive//CystalBlade/RPG - Udemy Course_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":2, "ts":1699237529146381, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1699237529146388, "dur":2872, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/knigh/OneDrive//CystalBlade/RPG - Udemy Course_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":2, "ts":1699237529149278, "dur":24024, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/knigh/OneDrive//CystalBlade/RPG - Udemy Course_Data/Plugins/x86_64/lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":2, "ts":1699237529173308, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1699237529173728, "dur":1395, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/knigh/OneDrive//CystalBlade/RPG - Udemy Course_Data/Plugins/x86_64/lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":2, "ts":1699237529175146, "dur":8420, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1699237529088383, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1699237529088384, "dur":3632, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1699237529092016, "dur":76, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/knigh/OneDrive//CystalBlade/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1699237529092095, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1699237529112703, "dur":3022, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/knigh/OneDrive//CystalBlade/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1699237529115775, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/knigh/OneDrive//CystalBlade/RPG - Udemy Course_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1699237529115816, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1699237529115822, "dur":5545, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/knigh/OneDrive//CystalBlade/RPG - Udemy Course_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1699237529121384, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/knigh/OneDrive//CystalBlade/RPG - Udemy Course_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1699237529121401, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1699237529121407, "dur":3678, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/knigh/OneDrive//CystalBlade/RPG - Udemy Course_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1699237529125100, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/knigh/OneDrive//CystalBlade/RPG - Udemy Course_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1699237529125116, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1699237529125122, "dur":3612, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/knigh/OneDrive//CystalBlade/RPG - Udemy Course_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1699237529128749, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/knigh/OneDrive//CystalBlade/RPG - Udemy Course_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1699237529128768, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1699237529128774, "dur":3983, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/knigh/OneDrive//CystalBlade/RPG - Udemy Course_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1699237529132772, "dur":447, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/knigh/OneDrive//CystalBlade/RPG - Udemy Course_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":3, "ts":1699237529133222, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1699237529133228, "dur":3184, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/knigh/OneDrive//CystalBlade/RPG - Udemy Course_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":3, "ts":1699237529136428, "dur":197, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/knigh/OneDrive//CystalBlade/RPG - Udemy Course_Data/Managed/Unity.Recorder.Base.dll" }}
+,{ "pid":12345, "tid":3, "ts":1699237529136628, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1699237529136634, "dur":3615, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/knigh/OneDrive//CystalBlade/RPG - Udemy Course_Data/Managed/Unity.Recorder.Base.dll" }}
+,{ "pid":12345, "tid":3, "ts":1699237529140268, "dur":207, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/knigh/OneDrive//CystalBlade/RPG - Udemy Course_Data/Managed/Unity.2D.PixelPerfect.dll" }}
+,{ "pid":12345, "tid":3, "ts":1699237529140478, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1699237529140484, "dur":2650, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/knigh/OneDrive//CystalBlade/RPG - Udemy Course_Data/Managed/Unity.2D.PixelPerfect.dll" }}
+,{ "pid":12345, "tid":3, "ts":1699237529143151, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/knigh/OneDrive//CystalBlade/RPG - Udemy Course_Data/Managed/System.Runtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1699237529143167, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1699237529143173, "dur":3166, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/knigh/OneDrive//CystalBlade/RPG - Udemy Course_Data/Managed/System.Runtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1699237529146355, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/knigh/OneDrive//CystalBlade/RPG - Udemy Course_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1699237529146400, "dur":12, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1699237529146418, "dur":4011, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/knigh/OneDrive//CystalBlade/RPG - Udemy Course_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1699237529150445, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/knigh/OneDrive//CystalBlade/RPG - Udemy Course_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1699237529150460, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1699237529150465, "dur":33018, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/knigh/OneDrive//CystalBlade/RPG - Udemy Course_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1699237529183509, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":3, "ts":1699237529183512, "dur":0, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1699237529087588, "dur":549, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1699237529088140, "dur":3826, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1699237529091973, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":4, "ts":1699237529091998, "dur":33, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1699237529092036, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/knigh/OneDrive//CystalBlade/RPG - Udemy Course_Data/app.info" }}
+,{ "pid":12345, "tid":4, "ts":1699237529092040, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1699237529092637, "dur":3916, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/knigh/OneDrive//CystalBlade/RPG - Udemy Course_Data/app.info" }}
+,{ "pid":12345, "tid":4, "ts":1699237529096555, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/knigh/OneDrive//CystalBlade/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1699237529096599, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1699237529096605, "dur":2013, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/knigh/OneDrive//CystalBlade/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1699237529098664, "dur":78, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/knigh/OneDrive//CystalBlade/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1699237529098745, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1699237529098752, "dur":1093, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/knigh/OneDrive//CystalBlade/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1699237529099880, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/knigh/OneDrive//CystalBlade/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":4, "ts":1699237529099917, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1699237529099997, "dur":1125, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/knigh/OneDrive//CystalBlade/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":4, "ts":1699237529101166, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/knigh/OneDrive//CystalBlade/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":4, "ts":1699237529101219, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1699237529101224, "dur":1992, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/knigh/OneDrive//CystalBlade/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":4, "ts":1699237529103281, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/knigh/OneDrive//CystalBlade/RPG - Udemy Course_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1699237529103321, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1699237529103334, "dur":1388, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/knigh/OneDrive//CystalBlade/RPG - Udemy Course_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1699237529104750, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/knigh/OneDrive//CystalBlade/RPG - Udemy Course_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1699237529104775, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1699237529104783, "dur":1630, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/knigh/OneDrive//CystalBlade/RPG - Udemy Course_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1699237529106429, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/knigh/OneDrive//CystalBlade/RPG - Udemy Course_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1699237529106452, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1699237529106459, "dur":3639, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/knigh/OneDrive//CystalBlade/RPG - Udemy Course_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1699237529110120, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/knigh/OneDrive//CystalBlade/RPG - Udemy Course_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1699237529110142, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1699237529110149, "dur":4193, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/knigh/OneDrive//CystalBlade/RPG - Udemy Course_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1699237529114357, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/knigh/OneDrive//CystalBlade/RPG - Udemy Course_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1699237529114373, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1699237529114379, "dur":2304, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/knigh/OneDrive//CystalBlade/RPG - Udemy Course_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1699237529116698, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/knigh/OneDrive//CystalBlade/RPG - Udemy Course_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1699237529116717, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1699237529116723, "dur":6081, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/knigh/OneDrive//CystalBlade/RPG - Udemy Course_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1699237529122819, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/knigh/OneDrive//CystalBlade/RPG - Udemy Course_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1699237529122835, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1699237529122842, "dur":3147, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/knigh/OneDrive//CystalBlade/RPG - Udemy Course_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1699237529126002, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/knigh/OneDrive//CystalBlade/RPG - Udemy Course_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1699237529126019, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1699237529126025, "dur":3550, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/knigh/OneDrive//CystalBlade/RPG - Udemy Course_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1699237529129590, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/knigh/OneDrive//CystalBlade/RPG - Udemy Course_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1699237529129603, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1699237529129609, "dur":3254, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/knigh/OneDrive//CystalBlade/RPG - Udemy Course_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1699237529132878, "dur":171, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/knigh/OneDrive//CystalBlade/RPG - Udemy Course_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":4, "ts":1699237529133052, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1699237529133058, "dur":3020, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/knigh/OneDrive//CystalBlade/RPG - Udemy Course_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":4, "ts":1699237529136094, "dur":150, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/knigh/OneDrive//CystalBlade/RPG - Udemy Course_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":4, "ts":1699237529136249, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1699237529136257, "dur":3974, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/knigh/OneDrive//CystalBlade/RPG - Udemy Course_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":4, "ts":1699237529140279, "dur":214, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/knigh/OneDrive//CystalBlade/RPG - Udemy Course_Data/Managed/Unity.2D.IK.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1699237529140497, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1699237529140503, "dur":2840, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/knigh/OneDrive//CystalBlade/RPG - Udemy Course_Data/Managed/Unity.2D.IK.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1699237529143358, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/knigh/OneDrive//CystalBlade/RPG - Udemy Course_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":4, "ts":1699237529143374, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1699237529143380, "dur":3350, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/knigh/OneDrive//CystalBlade/RPG - Udemy Course_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":4, "ts":1699237529146744, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/knigh/OneDrive//CystalBlade/RPG - Udemy Course_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":4, "ts":1699237529146758, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1699237529146764, "dur":3878, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/knigh/OneDrive//CystalBlade/RPG - Udemy Course_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":4, "ts":1699237529150658, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/knigh/OneDrive//CystalBlade/RPG - Udemy Course_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":4, "ts":1699237529150675, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1699237529150681, "dur":3246, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/knigh/OneDrive//CystalBlade/RPG - Udemy Course_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":4, "ts":1699237529153947, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/knigh/OneDrive//CystalBlade/RPG - Udemy Course_Data/level1" }}
+,{ "pid":12345, "tid":4, "ts":1699237529153967, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1699237529153994, "dur":5542, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/knigh/OneDrive//CystalBlade/RPG - Udemy Course_Data/level1" }}
+,{ "pid":12345, "tid":4, "ts":1699237529159551, "dur":24009, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1699237529087760, "dur":416, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1699237529088176, "dur":3832, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1699237529092008, "dur":111, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/knigh/OneDrive//CystalBlade/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1699237529092121, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1699237529113407, "dur":2568, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/knigh/OneDrive//CystalBlade/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1699237529116017, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/knigh/OneDrive//CystalBlade/RPG - Udemy Course_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1699237529116034, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1699237529116040, "dur":4743, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/knigh/OneDrive//CystalBlade/RPG - Udemy Course_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1699237529120799, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/knigh/OneDrive//CystalBlade/RPG - Udemy Course_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1699237529120815, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1699237529120822, "dur":4005, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/knigh/OneDrive//CystalBlade/RPG - Udemy Course_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1699237529124842, "dur":83, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/knigh/OneDrive//CystalBlade/RPG - Udemy Course_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1699237529124928, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1699237529124934, "dur":3528, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/knigh/OneDrive//CystalBlade/RPG - Udemy Course_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1699237529128475, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/knigh/OneDrive//CystalBlade/RPG - Udemy Course_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1699237529128508, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1699237529128514, "dur":3523, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/knigh/OneDrive//CystalBlade/RPG - Udemy Course_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1699237529132054, "dur":392, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/knigh/OneDrive//CystalBlade/RPG - Udemy Course_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":5, "ts":1699237529132449, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1699237529132456, "dur":2724, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/knigh/OneDrive//CystalBlade/RPG - Udemy Course_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":5, "ts":1699237529135196, "dur":143, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/knigh/OneDrive//CystalBlade/RPG - Udemy Course_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":5, "ts":1699237529135342, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1699237529135349, "dur":3084, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/knigh/OneDrive//CystalBlade/RPG - Udemy Course_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":5, "ts":1699237529138448, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/knigh/OneDrive//CystalBlade/RPG - Udemy Course_Data/Managed/Unity.Burst.Cecil.Pdb.dll" }}
+,{ "pid":12345, "tid":5, "ts":1699237529138465, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1699237529138471, "dur":2937, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/knigh/OneDrive//CystalBlade/RPG - Udemy Course_Data/Managed/Unity.Burst.Cecil.Pdb.dll" }}
+,{ "pid":12345, "tid":5, "ts":1699237529141423, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/knigh/OneDrive//CystalBlade/RPG - Udemy Course_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":5, "ts":1699237529141437, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1699237529141443, "dur":3157, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/knigh/OneDrive//CystalBlade/RPG - Udemy Course_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":5, "ts":1699237529144618, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/knigh/OneDrive//CystalBlade/RPG - Udemy Course_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":5, "ts":1699237529144633, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1699237529144639, "dur":3400, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/knigh/OneDrive//CystalBlade/RPG - Udemy Course_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":5, "ts":1699237529148054, "dur":251, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/knigh/OneDrive//CystalBlade/RPG - Udemy Course_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":5, "ts":1699237529148309, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1699237529148315, "dur":3954, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/knigh/OneDrive//CystalBlade/RPG - Udemy Course_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":5, "ts":1699237529152287, "dur":3956, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/knigh/OneDrive//CystalBlade/RPG - Udemy Course_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":5, "ts":1699237529156250, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1699237529156260, "dur":4302, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/knigh/OneDrive//CystalBlade/RPG - Udemy Course_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":5, "ts":1699237529160598, "dur":23057, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1699237529088010, "dur":216, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1699237529088226, "dur":3746, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1699237529091973, "dur":85, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/knigh/OneDrive//CystalBlade/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":6, "ts":1699237529092061, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1699237529094284, "dur":2319, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/knigh/OneDrive//CystalBlade/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":6, "ts":1699237529096677, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/knigh/OneDrive//CystalBlade/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":6, "ts":1699237529096714, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1699237529096720, "dur":1969, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/knigh/OneDrive//CystalBlade/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":6, "ts":1699237529098744, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/knigh/OneDrive//CystalBlade/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":6, "ts":1699237529098783, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1699237529098789, "dur":1247, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/knigh/OneDrive//CystalBlade/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":6, "ts":1699237529100079, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/knigh/OneDrive//CystalBlade/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":6, "ts":1699237529100131, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1699237529100137, "dur":6166, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/knigh/OneDrive//CystalBlade/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":6, "ts":1699237529106363, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/knigh/OneDrive//CystalBlade/RPG - Udemy Course_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1699237529106389, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1699237529106395, "dur":3096, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/knigh/OneDrive//CystalBlade/RPG - Udemy Course_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1699237529109507, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/knigh/OneDrive//CystalBlade/RPG - Udemy Course_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1699237529109524, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1699237529109532, "dur":4642, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/knigh/OneDrive//CystalBlade/RPG - Udemy Course_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1699237529114194, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/knigh/OneDrive//CystalBlade/RPG - Udemy Course_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1699237529114215, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1699237529114222, "dur":2798, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/knigh/OneDrive//CystalBlade/RPG - Udemy Course_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1699237529117037, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/knigh/OneDrive//CystalBlade/RPG - Udemy Course_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1699237529117052, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1699237529117059, "dur":6540, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/knigh/OneDrive//CystalBlade/RPG - Udemy Course_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1699237529123613, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/knigh/OneDrive//CystalBlade/RPG - Udemy Course_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1699237529123629, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1699237529123636, "dur":3296, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/knigh/OneDrive//CystalBlade/RPG - Udemy Course_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1699237529126964, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/knigh/OneDrive//CystalBlade/RPG - Udemy Course_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":6, "ts":1699237529126979, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1699237529126984, "dur":3701, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/knigh/OneDrive//CystalBlade/RPG - Udemy Course_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":6, "ts":1699237529130700, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/knigh/OneDrive//CystalBlade/RPG - Udemy Course_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1699237529130715, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1699237529130722, "dur":3181, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/knigh/OneDrive//CystalBlade/RPG - Udemy Course_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1699237529133919, "dur":199, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/knigh/OneDrive//CystalBlade/RPG - Udemy Course_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":6, "ts":1699237529134121, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1699237529134128, "dur":3311, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/knigh/OneDrive//CystalBlade/RPG - Udemy Course_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":6, "ts":1699237529137455, "dur":166, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/knigh/OneDrive//CystalBlade/RPG - Udemy Course_Data/Managed/Unity.InternalAPIEngineBridge.001.dll" }}
+,{ "pid":12345, "tid":6, "ts":1699237529137624, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1699237529137630, "dur":3431, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/knigh/OneDrive//CystalBlade/RPG - Udemy Course_Data/Managed/Unity.InternalAPIEngineBridge.001.dll" }}
+,{ "pid":12345, "tid":6, "ts":1699237529141091, "dur":163, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/knigh/OneDrive//CystalBlade/RPG - Udemy Course_Data/Managed/Unity.2D.Animation.Runtime.dll" }}
+,{ "pid":12345, "tid":6, "ts":1699237529141257, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1699237529141263, "dur":4075, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/knigh/OneDrive//CystalBlade/RPG - Udemy Course_Data/Managed/Unity.2D.Animation.Runtime.dll" }}
+,{ "pid":12345, "tid":6, "ts":1699237529145359, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/knigh/OneDrive//CystalBlade/RPG - Udemy Course_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":6, "ts":1699237529145390, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1699237529145397, "dur":6654, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/knigh/OneDrive//CystalBlade/RPG - Udemy Course_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":6, "ts":1699237529152070, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/knigh/OneDrive//CystalBlade/RPG - Udemy Course_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":6, "ts":1699237529152085, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1699237529152091, "dur":9158, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/knigh/OneDrive//CystalBlade/RPG - Udemy Course_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":6, "ts":1699237529161273, "dur":22331, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1699237529088081, "dur":187, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1699237529088268, "dur":3729, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1699237529091997, "dur":80, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/knigh/OneDrive//CystalBlade/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":7, "ts":1699237529092080, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1699237529099894, "dur":1441, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/knigh/OneDrive//CystalBlade/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":7, "ts":1699237529101384, "dur":627, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/knigh/OneDrive//CystalBlade/RPG - Udemy Course.exe" }}
+,{ "pid":12345, "tid":7, "ts":1699237529102014, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1699237529102020, "dur":2110, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/knigh/OneDrive//CystalBlade/RPG - Udemy Course.exe" }}
+,{ "pid":12345, "tid":7, "ts":1699237529104150, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/knigh/OneDrive//CystalBlade/RPG - Udemy Course_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1699237529104179, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1699237529104189, "dur":1705, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/knigh/OneDrive//CystalBlade/RPG - Udemy Course_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1699237529105914, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/knigh/OneDrive//CystalBlade/RPG - Udemy Course_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1699237529105939, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1699237529105948, "dur":1521, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/knigh/OneDrive//CystalBlade/RPG - Udemy Course_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1699237529107484, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/knigh/OneDrive//CystalBlade/RPG - Udemy Course_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1699237529107508, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1699237529107515, "dur":3629, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/knigh/OneDrive//CystalBlade/RPG - Udemy Course_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1699237529111162, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/knigh/OneDrive//CystalBlade/RPG - Udemy Course_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1699237529111182, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1699237529111189, "dur":4711, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/knigh/OneDrive//CystalBlade/RPG - Udemy Course_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1699237529115917, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/knigh/OneDrive//CystalBlade/RPG - Udemy Course_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1699237529115938, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1699237529115944, "dur":4999, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/knigh/OneDrive//CystalBlade/RPG - Udemy Course_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1699237529120957, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/knigh/OneDrive//CystalBlade/RPG - Udemy Course_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1699237529120972, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1699237529120978, "dur":3960, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/knigh/OneDrive//CystalBlade/RPG - Udemy Course_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1699237529124956, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/knigh/OneDrive//CystalBlade/RPG - Udemy Course_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1699237529124971, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1699237529124977, "dur":3472, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/knigh/OneDrive//CystalBlade/RPG - Udemy Course_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1699237529128467, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/knigh/OneDrive//CystalBlade/RPG - Udemy Course_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1699237529128483, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1699237529128505, "dur":3714, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/knigh/OneDrive//CystalBlade/RPG - Udemy Course_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1699237529132235, "dur":596, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/knigh/OneDrive//CystalBlade/RPG - Udemy Course_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":7, "ts":1699237529132834, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1699237529132841, "dur":2931, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/knigh/OneDrive//CystalBlade/RPG - Udemy Course_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":7, "ts":1699237529135786, "dur":143, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/knigh/OneDrive//CystalBlade/RPG - Udemy Course_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":7, "ts":1699237529135949, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1699237529135955, "dur":4252, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/knigh/OneDrive//CystalBlade/RPG - Udemy Course_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":7, "ts":1699237529140254, "dur":427, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/knigh/OneDrive//CystalBlade/RPG - Udemy Course_Data/Managed/Unity.2D.Tilemap.Extras.dll" }}
+,{ "pid":12345, "tid":7, "ts":1699237529140684, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1699237529140691, "dur":2923, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/knigh/OneDrive//CystalBlade/RPG - Udemy Course_Data/Managed/Unity.2D.Tilemap.Extras.dll" }}
+,{ "pid":12345, "tid":7, "ts":1699237529143630, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/knigh/OneDrive//CystalBlade/RPG - Udemy Course_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":7, "ts":1699237529143645, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1699237529143652, "dur":3198, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/knigh/OneDrive//CystalBlade/RPG - Udemy Course_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":7, "ts":1699237529146865, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/knigh/OneDrive//CystalBlade/RPG - Udemy Course_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":7, "ts":1699237529146917, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1699237529146923, "dur":11201, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/knigh/OneDrive//CystalBlade/RPG - Udemy Course_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":7, "ts":1699237529158154, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/knigh/OneDrive//CystalBlade/RPG - Udemy Course_Data/level0" }}
+,{ "pid":12345, "tid":7, "ts":1699237529158174, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1699237529158185, "dur":3064, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/knigh/OneDrive//CystalBlade/RPG - Udemy Course_Data/level0" }}
+,{ "pid":12345, "tid":7, "ts":1699237529161267, "dur":22345, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1699237529088231, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1699237529088251, "dur":3755, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1699237529092006, "dur":101, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/knigh/OneDrive//CystalBlade/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":8, "ts":1699237529092110, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1699237529113047, "dur":1221, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/knigh/OneDrive//CystalBlade/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":8, "ts":1699237529114338, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/knigh/OneDrive//CystalBlade/RPG - Udemy Course_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1699237529114359, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1699237529114366, "dur":2389, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/knigh/OneDrive//CystalBlade/RPG - Udemy Course_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1699237529116770, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/knigh/OneDrive//CystalBlade/RPG - Udemy Course_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1699237529116784, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1699237529116790, "dur":6410, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/knigh/OneDrive//CystalBlade/RPG - Udemy Course_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1699237529123217, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/knigh/OneDrive//CystalBlade/RPG - Udemy Course_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1699237529123234, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1699237529123240, "dur":3590, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/knigh/OneDrive//CystalBlade/RPG - Udemy Course_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1699237529126847, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/knigh/OneDrive//CystalBlade/RPG - Udemy Course_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1699237529126861, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1699237529126868, "dur":3553, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/knigh/OneDrive//CystalBlade/RPG - Udemy Course_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1699237529130437, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/knigh/OneDrive//CystalBlade/RPG - Udemy Course_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1699237529130471, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1699237529130479, "dur":3409, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/knigh/OneDrive//CystalBlade/RPG - Udemy Course_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1699237529133904, "dur":172, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/knigh/OneDrive//CystalBlade/RPG - Udemy Course_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":8, "ts":1699237529134079, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1699237529134086, "dur":3153, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/knigh/OneDrive//CystalBlade/RPG - Udemy Course_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":8, "ts":1699237529137254, "dur":734, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/knigh/OneDrive//CystalBlade/RPG - Udemy Course_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":8, "ts":1699237529137991, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1699237529137999, "dur":3221, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/knigh/OneDrive//CystalBlade/RPG - Udemy Course_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":8, "ts":1699237529141235, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/knigh/OneDrive//CystalBlade/RPG - Udemy Course_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":8, "ts":1699237529141249, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1699237529141255, "dur":5435, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/knigh/OneDrive//CystalBlade/RPG - Udemy Course_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":8, "ts":1699237529146705, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/knigh/OneDrive//CystalBlade/RPG - Udemy Course_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":8, "ts":1699237529146721, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1699237529146727, "dur":3578, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/knigh/OneDrive//CystalBlade/RPG - Udemy Course_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":8, "ts":1699237529150322, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/knigh/OneDrive//CystalBlade/RPG - Udemy Course_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":8, "ts":1699237529150339, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1699237529150345, "dur":1946, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/knigh/OneDrive//CystalBlade/RPG - Udemy Course_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":8, "ts":1699237529152307, "dur":4627, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/knigh/OneDrive//CystalBlade/RPG - Udemy Course_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":8, "ts":1699237529156942, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1699237529156958, "dur":3349, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/knigh/OneDrive//CystalBlade/RPG - Udemy Course_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":8, "ts":1699237529160325, "dur":23236, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1699237529088498, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1699237529088498, "dur":3511, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1699237529092009, "dur":222, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/knigh/OneDrive//CystalBlade/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":9, "ts":1699237529092255, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1699237529113777, "dur":2555, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/knigh/OneDrive//CystalBlade/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":9, "ts":1699237529116398, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/knigh/OneDrive//CystalBlade/RPG - Udemy Course_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1699237529116419, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1699237529116426, "dur":5496, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/knigh/OneDrive//CystalBlade/RPG - Udemy Course_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1699237529121941, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/knigh/OneDrive//CystalBlade/RPG - Udemy Course_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1699237529121977, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1699237529121984, "dur":3772, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/knigh/OneDrive//CystalBlade/RPG - Udemy Course_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1699237529125771, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/knigh/OneDrive//CystalBlade/RPG - Udemy Course_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1699237529125785, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1699237529125791, "dur":3598, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/knigh/OneDrive//CystalBlade/RPG - Udemy Course_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1699237529129404, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/knigh/OneDrive//CystalBlade/RPG - Udemy Course_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1699237529129418, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1699237529129425, "dur":3578, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/knigh/OneDrive//CystalBlade/RPG - Udemy Course_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1699237529133019, "dur":166, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/knigh/OneDrive//CystalBlade/RPG - Udemy Course_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":9, "ts":1699237529133205, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1699237529133211, "dur":3044, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/knigh/OneDrive//CystalBlade/RPG - Udemy Course_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":9, "ts":1699237529136271, "dur":158, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/knigh/OneDrive//CystalBlade/RPG - Udemy Course_Data/Managed/Unity.Recorder.dll" }}
+,{ "pid":12345, "tid":9, "ts":1699237529136432, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1699237529136439, "dur":3801, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/knigh/OneDrive//CystalBlade/RPG - Udemy Course_Data/Managed/Unity.Recorder.dll" }}
+,{ "pid":12345, "tid":9, "ts":1699237529140258, "dur":411, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/knigh/OneDrive//CystalBlade/RPG - Udemy Course_Data/Managed/Unity.2D.SpriteShape.Runtime.dll" }}
+,{ "pid":12345, "tid":9, "ts":1699237529140672, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1699237529140679, "dur":2582, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/knigh/OneDrive//CystalBlade/RPG - Udemy Course_Data/Managed/Unity.2D.SpriteShape.Runtime.dll" }}
+,{ "pid":12345, "tid":9, "ts":1699237529143276, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/knigh/OneDrive//CystalBlade/RPG - Udemy Course_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":9, "ts":1699237529143292, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1699237529143298, "dur":3467, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/knigh/OneDrive//CystalBlade/RPG - Udemy Course_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":9, "ts":1699237529146781, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/knigh/OneDrive//CystalBlade/RPG - Udemy Course_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":9, "ts":1699237529146795, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1699237529146801, "dur":3061, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/knigh/OneDrive//CystalBlade/RPG - Udemy Course_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":9, "ts":1699237529149881, "dur":159, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/knigh/OneDrive//CystalBlade/RPG - Udemy Course_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":9, "ts":1699237529150060, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1699237529150531, "dur":1770, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/knigh/OneDrive//CystalBlade/RPG - Udemy Course_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":9, "ts":1699237529152320, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/knigh/OneDrive//CystalBlade/RPG - Udemy Course_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":9, "ts":1699237529152336, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1699237529152342, "dur":6823, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/knigh/OneDrive//CystalBlade/RPG - Udemy Course_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":9, "ts":1699237529159182, "dur":186, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/knigh/OneDrive//CystalBlade/RPG - Udemy Course_Data/boot.config" }}
+,{ "pid":12345, "tid":9, "ts":1699237529159371, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1699237529159377, "dur":1476, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/knigh/OneDrive//CystalBlade/RPG - Udemy Course_Data/boot.config" }}
+,{ "pid":12345, "tid":9, "ts":1699237529160866, "dur":22764, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1699237529088650, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1699237529088650, "dur":3357, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1699237529092007, "dur":81, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/knigh/OneDrive//CystalBlade/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":10, "ts":1699237529092090, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1699237529113823, "dur":1402, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/knigh/OneDrive//CystalBlade/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":10, "ts":1699237529115282, "dur":415, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/knigh/OneDrive//CystalBlade/RPG - Udemy Course_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":10, "ts":1699237529115701, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1699237529115707, "dur":5464, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/knigh/OneDrive//CystalBlade/RPG - Udemy Course_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":10, "ts":1699237529121187, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/knigh/OneDrive//CystalBlade/RPG - Udemy Course_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1699237529121206, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1699237529121212, "dur":3968, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/knigh/OneDrive//CystalBlade/RPG - Udemy Course_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1699237529125197, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/knigh/OneDrive//CystalBlade/RPG - Udemy Course_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1699237529125212, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1699237529125235, "dur":3181, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/knigh/OneDrive//CystalBlade/RPG - Udemy Course_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1699237529128430, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/knigh/OneDrive//CystalBlade/RPG - Udemy Course_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1699237529128445, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1699237529128452, "dur":4207, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/knigh/OneDrive//CystalBlade/RPG - Udemy Course_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1699237529132674, "dur":223, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/knigh/OneDrive//CystalBlade/RPG - Udemy Course_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":10, "ts":1699237529132900, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1699237529132906, "dur":2921, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/knigh/OneDrive//CystalBlade/RPG - Udemy Course_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":10, "ts":1699237529135843, "dur":169, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/knigh/OneDrive//CystalBlade/RPG - Udemy Course_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":10, "ts":1699237529136016, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1699237529136022, "dur":4111, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/knigh/OneDrive//CystalBlade/RPG - Udemy Course_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":10, "ts":1699237529140149, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/knigh/OneDrive//CystalBlade/RPG - Udemy Course_Data/Managed/Unity.Burst.Cecil.dll" }}
+,{ "pid":12345, "tid":10, "ts":1699237529140165, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1699237529140171, "dur":2375, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/knigh/OneDrive//CystalBlade/RPG - Udemy Course_Data/Managed/Unity.Burst.Cecil.dll" }}
+,{ "pid":12345, "tid":10, "ts":1699237529142561, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/knigh/OneDrive//CystalBlade/RPG - Udemy Course_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":10, "ts":1699237529142576, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1699237529142582, "dur":4063, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/knigh/OneDrive//CystalBlade/RPG - Udemy Course_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":10, "ts":1699237529146659, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/knigh/OneDrive//CystalBlade/RPG - Udemy Course_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":10, "ts":1699237529146674, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1699237529146682, "dur":3213, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/knigh/OneDrive//CystalBlade/RPG - Udemy Course_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":10, "ts":1699237529149912, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/knigh/OneDrive//CystalBlade/RPG - Udemy Course_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":10, "ts":1699237529149926, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1699237529149981, "dur":3951, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/knigh/OneDrive//CystalBlade/RPG - Udemy Course_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":10, "ts":1699237529153947, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/knigh/OneDrive//CystalBlade/RPG - Udemy Course_Data/level2" }}
+,{ "pid":12345, "tid":10, "ts":1699237529153967, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1699237529153975, "dur":4576, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/knigh/OneDrive//CystalBlade/RPG - Udemy Course_Data/level2" }}
+,{ "pid":12345, "tid":10, "ts":1699237529158570, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/knigh/OneDrive//CystalBlade/RPG - Udemy Course_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":10, "ts":1699237529158591, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1699237529158597, "dur":2659, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/knigh/OneDrive//CystalBlade/RPG - Udemy Course_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":10, "ts":1699237529161277, "dur":22317, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1699237529088845, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1699237529088845, "dur":3151, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1699237529091997, "dur":81, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/knigh/OneDrive//CystalBlade/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":11, "ts":1699237529092080, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1699237529100171, "dur":1761, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/knigh/OneDrive//CystalBlade/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":11, "ts":1699237529101980, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/knigh/OneDrive//CystalBlade/RPG - Udemy Course_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1699237529102001, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1699237529102261, "dur":2191, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/knigh/OneDrive//CystalBlade/RPG - Udemy Course_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1699237529104474, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/knigh/OneDrive//CystalBlade/RPG - Udemy Course_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1699237529104497, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1699237529104505, "dur":1588, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/knigh/OneDrive//CystalBlade/RPG - Udemy Course_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1699237529106112, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/knigh/OneDrive//CystalBlade/RPG - Udemy Course_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1699237529106135, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1699237529106142, "dur":1883, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/knigh/OneDrive//CystalBlade/RPG - Udemy Course_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1699237529108041, "dur":84, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/knigh/OneDrive//CystalBlade/RPG - Udemy Course_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1699237529108128, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1699237529108135, "dur":3072, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/knigh/OneDrive//CystalBlade/RPG - Udemy Course_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1699237529111223, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/knigh/OneDrive//CystalBlade/RPG - Udemy Course_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1699237529111240, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1699237529111247, "dur":3987, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/knigh/OneDrive//CystalBlade/RPG - Udemy Course_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1699237529115250, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/knigh/OneDrive//CystalBlade/RPG - Udemy Course_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1699237529115265, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1699237529115272, "dur":4663, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/knigh/OneDrive//CystalBlade/RPG - Udemy Course_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1699237529119952, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/knigh/OneDrive//CystalBlade/RPG - Udemy Course_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1699237529119967, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1699237529119975, "dur":4422, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/knigh/OneDrive//CystalBlade/RPG - Udemy Course_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1699237529124412, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/knigh/OneDrive//CystalBlade/RPG - Udemy Course_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1699237529124427, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1699237529124434, "dur":3192, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/knigh/OneDrive//CystalBlade/RPG - Udemy Course_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1699237529127668, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/knigh/OneDrive//CystalBlade/RPG - Udemy Course_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1699237529127684, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1699237529127690, "dur":3579, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/knigh/OneDrive//CystalBlade/RPG - Udemy Course_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1699237529131286, "dur":192, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/knigh/OneDrive//CystalBlade/RPG - Udemy Course_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":11, "ts":1699237529131481, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1699237529131488, "dur":3018, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/knigh/OneDrive//CystalBlade/RPG - Udemy Course_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":11, "ts":1699237529134524, "dur":173, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/knigh/OneDrive//CystalBlade/RPG - Udemy Course_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":11, "ts":1699237529134701, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1699237529134708, "dur":3468, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/knigh/OneDrive//CystalBlade/RPG - Udemy Course_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":11, "ts":1699237529138191, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/knigh/OneDrive//CystalBlade/RPG - Udemy Course_Data/Managed/Unity.Burst.Cecil.Rocks.dll" }}
+,{ "pid":12345, "tid":11, "ts":1699237529138206, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1699237529138212, "dur":2971, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/knigh/OneDrive//CystalBlade/RPG - Udemy Course_Data/Managed/Unity.Burst.Cecil.Rocks.dll" }}
+,{ "pid":12345, "tid":11, "ts":1699237529141197, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/knigh/OneDrive//CystalBlade/RPG - Udemy Course_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":11, "ts":1699237529141215, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1699237529141221, "dur":3376, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/knigh/OneDrive//CystalBlade/RPG - Udemy Course_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":11, "ts":1699237529144617, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/knigh/OneDrive//CystalBlade/RPG - Udemy Course_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":11, "ts":1699237529144633, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1699237529144640, "dur":3321, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/knigh/OneDrive//CystalBlade/RPG - Udemy Course_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":11, "ts":1699237529147992, "dur":402, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/knigh/OneDrive//CystalBlade/RPG - Udemy Course_Data/Managed/Cinemachine.dll" }}
+,{ "pid":12345, "tid":11, "ts":1699237529148397, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1699237529148404, "dur":3957, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/knigh/OneDrive//CystalBlade/RPG - Udemy Course_Data/Managed/Cinemachine.dll" }}
+,{ "pid":12345, "tid":11, "ts":1699237529152376, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/knigh/OneDrive//CystalBlade/RPG - Udemy Course_Data/resources.assets" }}
+,{ "pid":12345, "tid":11, "ts":1699237529152426, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1699237529152432, "dur":6273, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/knigh/OneDrive//CystalBlade/RPG - Udemy Course_Data/resources.assets" }}
+,{ "pid":12345, "tid":11, "ts":1699237529158727, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/knigh/OneDrive//CystalBlade/RPG - Udemy Course_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":11, "ts":1699237529158744, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1699237529158750, "dur":1995, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/knigh/OneDrive//CystalBlade/RPG - Udemy Course_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":11, "ts":1699237529160835, "dur":22804, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1699237529089012, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1699237529089012, "dur":3003, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1699237529092015, "dur":260, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/knigh/OneDrive//CystalBlade/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":12, "ts":1699237529092277, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1699237529114029, "dur":2143, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/knigh/OneDrive//CystalBlade/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":12, "ts":1699237529116219, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/knigh/OneDrive//CystalBlade/RPG - Udemy Course_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1699237529116241, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1699237529116247, "dur":5096, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/knigh/OneDrive//CystalBlade/RPG - Udemy Course_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1699237529121357, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/knigh/OneDrive//CystalBlade/RPG - Udemy Course_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1699237529121376, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1699237529121382, "dur":3958, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/knigh/OneDrive//CystalBlade/RPG - Udemy Course_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1699237529125357, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/knigh/OneDrive//CystalBlade/RPG - Udemy Course_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1699237529125372, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1699237529125378, "dur":3560, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/knigh/OneDrive//CystalBlade/RPG - Udemy Course_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1699237529128952, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/knigh/OneDrive//CystalBlade/RPG - Udemy Course_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1699237529128967, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1699237529128973, "dur":3578, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/knigh/OneDrive//CystalBlade/RPG - Udemy Course_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1699237529132565, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/knigh/OneDrive//CystalBlade/RPG - Udemy Course_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":12, "ts":1699237529132579, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1699237529132585, "dur":2865, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/knigh/OneDrive//CystalBlade/RPG - Udemy Course_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":12, "ts":1699237529135468, "dur":178, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/knigh/OneDrive//CystalBlade/RPG - Udemy Course_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":12, "ts":1699237529135649, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1699237529135655, "dur":4468, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/knigh/OneDrive//CystalBlade/RPG - Udemy Course_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":12, "ts":1699237529140144, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/knigh/OneDrive//CystalBlade/RPG - Udemy Course_Data/Managed/Unity.Burst.Cecil.Mdb.dll" }}
+,{ "pid":12345, "tid":12, "ts":1699237529140162, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1699237529140170, "dur":1885, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/knigh/OneDrive//CystalBlade/RPG - Udemy Course_Data/Managed/Unity.Burst.Cecil.Mdb.dll" }}
+,{ "pid":12345, "tid":12, "ts":1699237529142070, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/knigh/OneDrive//CystalBlade/RPG - Udemy Course_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":12, "ts":1699237529142085, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1699237529142090, "dur":3835, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/knigh/OneDrive//CystalBlade/RPG - Udemy Course_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":12, "ts":1699237529145941, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/knigh/OneDrive//CystalBlade/RPG - Udemy Course_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":12, "ts":1699237529145958, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1699237529145982, "dur":4335, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/knigh/OneDrive//CystalBlade/RPG - Udemy Course_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":12, "ts":1699237529150333, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/knigh/OneDrive//CystalBlade/RPG - Udemy Course_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":12, "ts":1699237529150349, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1699237529150354, "dur":11493, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/knigh/OneDrive//CystalBlade/RPG - Udemy Course_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":12, "ts":1699237529161862, "dur":21722, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1699237529187435, "dur":2469, "ph":"X", "name": "ProfilerWriteOutput" }
+,
